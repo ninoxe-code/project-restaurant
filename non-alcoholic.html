@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chez Claude</title>
+        <meta name="keywords" content="restaurant, food, tasty, dinner, lunch, drinks">
+        <meta name="description" content="Dine out in the finest restaurant - Chez Claude!">
+        <meta charset="UTF-8">
+        <meta name="author" content="Nevena">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#404040"> <!--Promeniti boju-->
+        <link rel="icon" href="img/restaurant.jpg">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <nav style="background-color: black;">
+        <div class="logo">
+            <h1><a href="index.html">CHEZ CLAUDE</a></h1>
+        </div>
+        <div class="burger">
+            <i id="burger-icon" class="fa fa-bars" aria-hidden="true"></i>
+            <a href="index.html">Home</a>
+            <a class="active" href="appetizers.html">Menu</a>
+            <a href="info.html">About</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="menu-list">
+        <a href="appetizers.html">Appetizers</a>
+        <a href="salads.html">Salads</a>
+        <a href="main-courses.html">Main courses</a>
+        <a href="desserts.html">Desserts</a>
+        <a class="active" id="drink-list" href="#">Drinks</a>
+    </div>
+
+    <div class="drinks-slide" style="display: none;">
+        <a href="wine.html">Wine</a>
+        <a href="cocktails.html">Cocktails</a>
+        <a class="active" href="non-alcoholic.html">Non-alcoholic</a>
+    </div>
+
+    <div class="nav-slide" style="display: none; background-color: black;">
+        <a href="index.html">Home</a>
+        <a class="active" href="appetizers.html">Menu</a>
+        <a href="info.html">About</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <main>
+        <section class="section4">
+            <div class="menu">
+                <div class="img-container">
+                    <a href="img/drinks/Berries mix.jpg" target="_blank"><img src="img/drinks/Berries mix.jpg" alt="Berries mix"></a>
+                    <div class="description">
+                        <p>Berries mix 9&dollar;</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <a href="img/drinks/Lemonade.jpg" target="_blank"><img src="img/drinks/Lemonade.jpg" alt="Lemonade"></a>
+                    <div class="description">
+                        <p>Lemonade 5&dollar;</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <a href="img/drinks/Pomelo juice.jpg" target="_blank"><img src="img/drinks/Pomelo juice.jpg" alt="Pomelo juice"></a>
+                    <div class="description">
+                        <p>Pomelo juice 7&dollar;</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <a href="img/drinks/Orange-lemon juice.jpg" target="_blank"><img src="img/drinks/Orange-lemon juice.jpg" alt="Orange-lemon juice"></a>
+                    <div class="description">
+                        <p>Orange-lemon juice 6&dollar;</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <a href="img/drinks/Strawberry smoothie.jpg" target="_blank"><img src="img/drinks/Strawberry smoothie.jpg" alt="Strawberry smoothie"></a>
+                    <div class="description">
+                        <p>Strawberry smoothie 7&dollar;</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <a href="img/drinks/Watermellon-mint juice.jpg" target="_blank"><img src="img/drinks/Watermellon-mint juice.jpg" alt="Watermellon-mint juice"></a>
+                    <div class="description">
+                        <p>Watermellon-mint juice 8&dollar;</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <address>
+                <i class="fa fa-map-marker" aria-hidden="true"></i><br>
+                2634 Broadway <br>
+                New York <br>
+                NY 10025 <br>
+                United States
+            </address>
+        </div>
+        <div class="footer2">
+            <i class="fa fa-instagram" aria-hidden="true" onclick="alertMsg()"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true" onclick="alertMsg()"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true" onclick="alertMsg()"></i>
+            <p>Chez Claude&copy; 2020 <br> All rights reserved</p>
+        </div>
+        <div>
+            <h4>Open hours: <br>
+                Monday - Friday: 10:00am - 23:00pm <br>
+                Weekend: 10:00am - 01:00am
+            </h4>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

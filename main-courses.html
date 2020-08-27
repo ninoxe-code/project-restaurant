@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chez Claude</title>
+        <meta name="keywords" content="restaurant, food, tasty, dinner, lunch, drinks">
+        <meta name="description" content="Dine out in the finest restaurant - Chez Claude!">
+        <meta charset="UTF-8">
+        <meta name="author" content="Nevena">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#404040"> <!--Promeniti boju-->
+        <link rel="icon" href="img/restaurant.jpg">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <nav style="background-color: black;">
+        <div class="logo">
+            <h1><a href="index.html">CHEZ CLAUDE</a></h1>
+        </div>
+        <div class="burger">
+            <i id="burger-icon" class="fa fa-bars" aria-hidden="true"></i>
+            <a href="index.html">Home</a>
+            <a class="active" href="appetizers.html">Menu</a>
+            <a href="info.html">About</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="menu-list">
+        <a href="appetizers.html">Appetizers</a>
+        <a href="salads.html">Salads</a>
+        <a class="active" href="main-courses.html">Main courses</a>
+        <a href="desserts.html">Desserts</a>
+        <a id="drink-list" href="#">Drinks</a>
+    </div>
+
+    <div class="drinks-slide" style="display: none;">
+        <a href="wine.html">Wine</a>
+        <a href="cocktails.html">Cocktails</a>
+        <a href="non-alcoholic.html">Non-alcoholic</a>
+    </div>
+
+    <div class="nav-slide" style="display: none; background-color: black;">
+        <a href="index.html">Home</a>
+        <a class="active" href="appetizers.html">Menu</a>
+        <a href="info.html">About</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <main>
+        <section class="section4">
+            <div class="menu">
+                <div class="img-container">
+                    <a href="img/Shrimp pasta.jpg" target="_blank"><img src="img/Shrimp pasta.jpg" alt="Shrimp pasta"></a>
+                    <div class="description">
+                        <p>Shrimp pasta 19&dollar;</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <a href="img/Lamb ribs.jpg" target="_blank"><img src="img/Lamb ribs.jpg" alt="Lamb ribs"></a>
+                    <div class="description">
+                        <p>Lamb ribs 20&dollar;</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <a href="img/Salmon.jpg" target="_blank"><img src="img/Salmon.jpg" alt="Salmon"></a>
+                    <div class="description">
+                        <p>Salmon 26&dollar;</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <a href="img/Steak.jpg" target="_blank"><img src="img/Steak.jpg" alt="Steak"></a>
+                    <div class="description">
+                        <p>Steak 34&dollar;</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <a href="img/Lobster.jpg" target="_blank"><img src="img/Lobster.jpg" alt="Lobster"></a>
+                    <div class="description">
+                        <p>Lobster 30&dollar;</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <a href="img/Pork medallion.jpg" target="_blank"><img src="img/Pork medallion.jpg" alt="Pork medallion"></a>
+                    <div class="description">
+                        <p>Pork medallion 25&dollar;</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <address>
+                <i class="fa fa-map-marker" aria-hidden="true"></i><br>
+                2634 Broadway <br>
+                New York <br>
+                NY 10025 <br>
+                United States
+            </address>
+        </div>
+        <div class="footer2">
+            <i class="fa fa-instagram" aria-hidden="true" onclick="alertMsg()"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true" onclick="alertMsg()"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true" onclick="alertMsg()"></i>
+            <p>Chez Claude&copy; 2020 <br> All rights reserved</p>
+        </div>
+        <div>
+            <h4>Open hours: <br>
+                Monday - Friday: 10:00am - 23:00pm <br>
+                Weekend: 10:00am - 01:00am
+            </h4>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

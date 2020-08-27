@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chez Claude</title>
+        <meta name="keywords" content="restaurant, food, tasty, dinner, lunch, drinks">
+        <meta name="description" content="Dine out in the finest restaurant - Chez Claude!">
+        <meta charset="UTF-8">
+        <meta name="author" content="Nevena">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#404040"> <!--Promeniti boju-->
+        <link rel="icon" href="img/restaurant.jpg">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1><a href="index.html">CHEZ CLAUDE</a></h1>
+        </div>
+        <div class="burger">
+            <i id="burger-icon" class="fa fa-bars" aria-hidden="true"></i>
+            <a href="index.html">Home</a>
+            <a href="appetizers.html">Menu</a>
+            <a class="active" href="info.html">About</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="nav-slide" style="display: none;">
+        <a href="index.html">Home</a>
+        <a href="appetizers.html">Menu</a>
+        <a class="active" href="info.html">About</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <main>
+        <section class="section8">
+            <h1>Restaurant with prestige &amp; long history</h1> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ducimus illum amet unde consequatur exercitationem quasi deserunt. Sapiente impedit deleniti voluptatibus debitis magni, perferendis dolore ullam sit quibusdam explicabo ut!
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, tempora sint? Ab voluptatibus dignissimos, error quod eveniet nulla porro beatae accusantium asperiores officia reiciendis assumenda sequi labore sint eligendi inventore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit fugit accusantium quae dolor, doloribus omnis. Unde repellendus ea sint aliquam, assumenda doloribus ipsa nesciunt fuga dolor ipsam odit ducimus distinctio?
+            </p>
+        </section>
+        <section class="section5">
+            <h1>Image gallery</h1>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img name="slide" src="img/Olive-bacon rolls.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img name="slide" src="img/gallerymain.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/gallery.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/gallery2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/gallery3.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/gallery4.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/gallery5.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/Pork medallion.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/gallery6.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/drinks/Dark & Stormy.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/Salmon.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/Steak salad.jpg" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+     
+        </section>  
+    </main>
+    <footer>
+        <div>
+            <address>
+                <i class="fa fa-map-marker" aria-hidden="true"></i><br>
+                2634 Broadway <br>
+                New York <br>
+                NY 10025 <br>
+                United States
+            </address>
+        </div>
+        <div class="footer2">
+            <i class="fa fa-instagram" aria-hidden="true" onclick="alertMsg()"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true" onclick="alertMsg()"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true" onclick="alertMsg()"></i>
+            <p>Chez Claude&copy; 2020 <br> All rights reserved</p>
+        </div>
+        <div>
+            <h4>Open hours: <br>
+                Monday - Friday: 10:00am - 23:00pm <br>
+                Weekend: 10:00am - 01:00am
+            </h4>
+        </div>
+        
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
